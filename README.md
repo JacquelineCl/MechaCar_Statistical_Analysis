@@ -14,20 +14,22 @@ The slope of the linear model is not zero because the p-value is below the .05 t
 
 This linear model does a good job of predicting mpg because the residual standard error is below 10%.
 
-![Linear regression results](tbd)
+![Linear regression results](https://github.com/JacquelineCl/MechaCar_Statistical_Analysis/blob/f0c3d1d1cfca88d06a400187d19500d2d64f1340/Resources/linear_regression.png)
+
+![Linear regression summary](https://github.com/JacquelineCl/MechaCar_Statistical_Analysis/blob/f0c3d1d1cfca88d06a400187d19500d2d64f1340/Resources/linear_regression_summary.png)
 
 ## Summary Statistics on Suspension Coils
 Overall, the total meets design specifications since the variance on the coils is below the 100 limit. 
-![Total suspension coil statistics](tbd)
+![Total suspension coil statistics](https://github.com/JacquelineCl/MechaCar_Statistical_Analysis/blob/f0c3d1d1cfca88d06a400187d19500d2d64f1340/Resources/suspension_coil_summary.png)
 
 However, Lot 3 has a variance of 170. Further investigation of lot 3 is recommended before produt delivery. 
-![Lot summary suspension coil statistics](tbd)
+![Lot summary suspension coil statistics](https://github.com/JacquelineCl/MechaCar_Statistical_Analysis/blob/f0c3d1d1cfca88d06a400187d19500d2d64f1340/Resources/suspension_coil_stats_by_lot.png)
 
 ## T-Tests on Suspension Coils
 The t.test results for the psi on all coils shows no statistical difference from the mean population, assuming .05 p-value is normal. However, Lot3 has a p-value below .05 and is recommended for further inspection. 
 
-![Total t test results](tbd)
-![T test by lot results](tbd)
+![Total t test results](https://github.com/JacquelineCl/MechaCar_Statistical_Analysis/blob/f0c3d1d1cfca88d06a400187d19500d2d64f1340/Resources/t_test_total.png)
+![T test by lot results](https://github.com/JacquelineCl/MechaCar_Statistical_Analysis/blob/f0c3d1d1cfca88d06a400187d19500d2d64f1340/Resources/t_test_by_lot.png)
 
 ## Study Design: MechaCar vs Competition
 This study will use a two-sample t-test to determine if there is a statistical difference between the miles per gallon of the top 10 MechaCar prototypes and the combined city/highway mpg of the 2021 mid-sized cars listed on fueleconomy.gov (https://www.fueleconomy.gov/feg/byclass/Midsize_Cars2021.shtml). 
